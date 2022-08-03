@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>5e4d1c9e-040e-409f-b62a-c6b5825b1b27</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>VUS.Course.Shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\Contact.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\DataverseServiceContext.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\vus_class.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\vus_course.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\vus_enrollment.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Entities\vus_student.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extensions\JsonConvert.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\LocalTracingService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OptionSets\appaction_ClientType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OptionSets\Contact_accountrolecode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OptionSets\Contact_address1_addresstypecode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OptionSets\Contact_address1_freighttermscode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OptionSets\Contact_address1_shippingmethodcode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OptionSets\Contact_address2_addresstypecode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OptionSets\Contact_address2_freighttermscode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OptionSets\Contact_address2_shippingmethodcode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OptionSets\Contact_address3_addresstypecode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OptionSets\Contact_address3_freighttermscode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OptionSets\Contact_address3_shippingmethodcode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OptionSets\Contact_customersizecode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OptionSets\Contact_customertypecode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OptionSets\Contact_educationcode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OptionSets\Contact_familystatuscode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OptionSets\Contact_gendercode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OptionSets\Contact_haschildrencode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OptionSets\Contact_leadsourcecode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OptionSets\Contact_paymenttermscode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OptionSets\Contact_preferredappointmentdaycode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OptionSets\Contact_preferredappointmenttimecode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OptionSets\Contact_preferredcontactmethodcode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OptionSets\Contact_shippingmethodcode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OptionSets\Contact_StatusCode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OptionSets\Contact_territorycode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OptionSets\msdyn_knowledgemanagementsetting_msdyn_actionlist.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OptionSets\OptionSets.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OptionSets\vus_class_StatusCode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OptionSets\vus_course_StatusCode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OptionSets\vus_DateOptions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OptionSets\vus_enrollment_StatusCode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OptionSets\vus_student_StatusCode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)OptionSets\vus_TimeOptions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Repositories\DataverseReadOnlyRepository.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Repositories\DataverseRepository.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Repositories\IReadOnlyRepository.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Repositories\IRepository.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Repositories\RepositoryBase.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Extensions\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)EarlyboundGenerator.Settings.xml" />
+  </ItemGroup>
+</Project>
