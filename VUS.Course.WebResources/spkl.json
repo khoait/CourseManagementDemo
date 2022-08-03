@@ -1,0 +1,36 @@
+{
+  "webresources": [
+    {
+      "profile": "default,debug",
+      "root": "",
+      "solution": "CourseManagement",
+      "files": [        
+      ]
+    }
+  ],
+  "solutions": [
+    {
+      "profile": "default,debug",
+      "solution_uniquename": "CourseManagement",
+      "packagepath": "package",
+      "solutionpath": "CourseManagement.zip",
+      "packagetype": "both_managed_import",
+      "increment_on_import": false,
+      "map": [
+        {
+          "map": "path",
+          "from": "WebResources\\*.*",
+          "to": "..\\VUS.Course.Webresources\\**"
+        },
+        {
+          "map": "path",
+          "from": "WebResources\\**\\*.*",
+          "to": "..\\VUS.Course.Webresources\\storm_\\**"
+        }
+      ],
+      "clobber": true,
+      "allowwrite": true,
+      "allowdelete": false
+    }
+  ]
+}
