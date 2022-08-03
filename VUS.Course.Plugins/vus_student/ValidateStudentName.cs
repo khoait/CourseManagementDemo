@@ -1,32 +1,41 @@
 ﻿using Microsoft.Xrm.Sdk;
-using System;
+using VUS.Course.Plugins.Common;
+using VUS.Course.Shared.Services;
 
 namespace VUS.Course.Plugins.vus_student
 {
-    public class ValidateStudentName : IPlugin
+    [CrmPluginRegistration("Create",
+    "vus_student", StageEnum.PreValidation, ExecutionModeEnum.Synchronous,
+    "", "VUS.Course.Plugins.vus_student.ValidateStudentName: Create of vus_student", 1,
+    IsolationModeEnum.Sandbox
+    , Description = "VUS.Course.Plugins.vus_student.ValidateStudentName: Create of vus_student"
+    , Id = "a6c1c0b3-5512-ed11-b83e-0022485adde6"
+    , UnSecureConfiguration = @"""invalid student name. names must not contain test"""
+    )]
+    public class ValidateStudentName : PluginBase
     {
-        public void Execute(IServiceProvider serviceProvider)
+        public override string[] ValidMessageNames => new string[] { "Create", "Update" };
+
+        public override void Execute(ILocalPluginContext context)
         {
-            // Obtain the organization service reference which you will need for  
-            // web service calls.  
-            var serviceFactory = (IOrganizationServiceFactory)serviceProvider.GetService(typeof(IOrganizationServiceFactory));
-            var pluginExecutionContext = (IPluginExecutionContext)serviceProvider.GetService(typeof(IPluginExecutionContext));
-            var service = serviceFactory.CreateOrganizationService(pluginExecutionContext.UserId);
+            var target = context.GetInputParameter<Entity>("Target")?.ToEntity<Shared.vus_student>();
 
-            if (!pluginExecutionContext.InputParameters.Contains("Target")) return;
-
-            if (pluginExecutionContext.InputParameters["Target"] is Entity target)
+            if (target == null)
             {
-                var fullname = target.GetAttributeValue<string>("vus_fullname");
-                var lastname = target.GetAttributeValue<string>("vus_lastname");
-                var firstname = target.GetAttributeValue<string>("vus_firstname");
+                context.Trace("Target is null");
+                return;
+            }
 
-                if (fullname.ToLower().Contains("test") ||
-                    lastname.ToLower().Contains("test") ||
-                    firstname.ToLower().Contains("test"))
-                {
-                    throw new InvalidPluginExecutionException(OperationStatus.Failed, 1, "student name must not contain test");
-                }
+            context.Trace("fullname: {0}", target.vus_fullname);
+            context.Trace("firstname: {0}", target.vus_firstname);
+            context.Trace("lastname: {0}", target.vus_lastname);
+
+            var studentService = new StudentService(context.CurrentUserService);
+            if (!studentService.ValidateStudentName(target))
+            {
+                context.Trace("Name contains test");
+                var invalidMessage = this.UnsecureConfigString;
+                throw new InvalidPluginExecutionException(OperationStatus.Failed, 1, invalidMessage ?? "invalid name");
             }
         }
     }

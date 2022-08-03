@@ -52,6 +52,7 @@ namespace VUS.Course.Shared
 			public const string versionnumber = "versionnumber";
 			public const string vus_courseid = "vus_courseid";
 			public const string Id = "vus_courseid";
+			public const string vus_coursenumber = "vus_coursenumber";
 			public const string vus_description = "vus_description";
 			public const string vus_endon = "vus_endon";
 			public const string vus_name = "vus_name";
@@ -440,6 +441,26 @@ namespace VUS.Course.Shared
 			set
 			{
 				this.vus_courseid = value;
+			}
+		}
+		
+		/// <summary>
+		/// 
+		/// </summary>
+		[Microsoft.Xrm.Sdk.AttributeLogicalNameAttribute("vus_coursenumber")]
+		public string vus_coursenumber
+		{
+			[System.Diagnostics.DebuggerNonUserCode()]
+			get
+			{
+				return this.GetAttributeValue<string>("vus_coursenumber");
+			}
+			[System.Diagnostics.DebuggerNonUserCode()]
+			set
+			{
+				this.OnPropertyChanging("vus_coursenumber");
+				this.SetAttributeValue("vus_coursenumber", value);
+				this.OnPropertyChanged("vus_coursenumber");
 			}
 		}
 		

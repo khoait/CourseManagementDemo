@@ -55,6 +55,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Repositories\IReadOnlyRepository.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Repositories\IRepository.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Repositories\RepositoryBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\StudentService.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="$(MSBuildThisFileDirectory)Extensions\" />
