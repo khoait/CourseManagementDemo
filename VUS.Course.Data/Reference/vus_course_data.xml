@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<entity name="vus_course" displayname="Course">
+  <records>
+    <record id="59534765-5012-ed11-b83e-0022485adde6">
+      <field name="vus_courseid" value="59534765-5012-ed11-b83e-0022485adde6" />
+      <field name="vus_description" value="Test description" />
+      <field name="vus_endon" value="2022-08-31T00:00:00.0000000Z" />
+      <field name="vus_name" value="Course 1" />
+      <field name="vus_starton" value="2022-08-02T00:00:00.0000000Z" />
+    </record>
+  </records>
+  <m2mrelationships />
+</entity>

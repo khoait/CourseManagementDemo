@@ -1,0 +1,24 @@
+<entities >
+  <entity name="vus_course" displayname="Course" etc="10205" primaryidfield="vus_courseid" primarynamefield="vus_name" disableplugins="false">
+    <fields>
+      <field displayname="Course" name="vus_courseid" type="guid" primaryKey="true" />
+      <field displayname="Course Number" name="vus_coursenumber" type="string" customfield="true" />
+      <field displayname="Description" name="vus_description" type="string" customfield="true" />
+      <field displayname="End On" name="vus_endon" type="datetime" customfield="true" />
+      <field displayname="Name" name="vus_name" type="string" customfield="true" />
+      <field displayname="Start On" name="vus_starton" type="datetime" customfield="true" />
+    </fields>
+  </entity>
+  <entity name="vus_class" displayname="Class" etc="10175" primaryidfield="vus_classid" primarynamefield="vus_name" disableplugins="false">
+    <fields>
+      <field displayname="Address" name="vus_address" type="string" customfield="true" />
+      <field displayname="Capacity" name="vus_capacity" type="number" customfield="true" />
+      <field displayname="Class" name="vus_classid" type="guid" primaryKey="true" />
+      <field displayname="Class Number" name="vus_classnumber" type="string" customfield="true" />
+      <field displayname="Course" name="vus_courseid" type="entityreference" lookupType="vus_course" customfield="true" />
+      <field displayname="Dates" name="vus_datescode" type="optionsetvaluecollection" customfield="true" />
+      <field displayname="End Time" name="vus_endtime" type="optionsetvalue" customfield="true" />
+      <field displayname="Name" name="vus_name" type="string" customfield="true" />
+    </fields>
+  </entity>
+</entities>

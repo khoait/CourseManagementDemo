@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="VUS.Course.Plugins.vus_student.ValidateStudentName: Create of vus_student" SdkMessageProcessingStepId="{a6c1c0b3-5512-ed11-b83e-0022485adde6}" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SdkMessageId>9ebdbb1b-ea3e-db11-86a7-000a3a5473e8</SdkMessageId>
+  <PluginTypeName>VUS.Course.Plugins.vus_student.ValidateStudentName, VUS.Course.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=80027c12ea9a29c6</PluginTypeName>
+  <PluginTypeId>db118010-9dd9-4d61-b81c-43cd92670abc</PluginTypeId>
+  <PrimaryEntity>vus_student</PrimaryEntity>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <Configuration>"invalid student name. names must not contain test"</Configuration>
+  <Description>VUS.Course.Plugins.vus_student.ValidateStudentName: Create of vus_student</Description>
+  <FilteringAttributes></FilteringAttributes>
+  <InvocationSource>0</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>1</Rank>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>10</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages />
+</SdkMessageProcessingStep>

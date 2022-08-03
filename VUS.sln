@@ -7,6 +7,73 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VUS.Course.Plugins", "VUS.C
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "VUS.Course.Shared", "VUS.Course.Shared\VUS.Course.Shared.shproj", "{5E4D1C9E-040E-409F-B62A-C6B5825B1B27}"
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "VUS.Course.WebResources", "VUS.Course.WebResources\", "{4C028880-96FF-43B1-A5C9-3B011E54DC75}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_60669"
+		Debug.AspNetCompiler.PhysicalPath = "VUS.Course.WebResources\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60669\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_60669"
+		Release.AspNetCompiler.PhysicalPath = "VUS.Course.WebResources\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60669\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "60669"
+		SlnRelativePath = "VUS.Course.WebResources\"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "VUS.Course.SolutionPackage", "VUS.Course.SolutionPackage\", "{01210F34-2017-4A17-A9D5-31107A300251}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_60670"
+		Debug.AspNetCompiler.PhysicalPath = "VUS.Course.SolutionPackage\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60670\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_60670"
+		Release.AspNetCompiler.PhysicalPath = "VUS.Course.SolutionPackage\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60670\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "60670"
+		SlnRelativePath = "VUS.Course.SolutionPackage\"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "VUS.Course.Data", "VUS.Course.Data\", "{CB476F36-836E-4BE1-8403-99B09539F3F9}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_60772"
+		Debug.AspNetCompiler.PhysicalPath = "VUS.Course.Data\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60772\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_60772"
+		Release.AspNetCompiler.PhysicalPath = "VUS.Course.Data\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60772\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "60772"
+		SlnRelativePath = "VUS.Course.Data\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VUS.Course.Tools", "VUS.Course.Tools\VUS.Course.Tools.csproj", "{6B1A6072-7E6C-4C1B-B628-845D939754B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VUS.Course.DeploymentPackage", "VUS.Course.DeploymentPackage\VUS.Course.DeploymentPackage.csproj", "{170C0103-3F94-4896-9062-6314167F596A}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		VUS.Course.Shared\VUS.Course.Shared.projitems*{0eac3174-69a4-43d6-929c-bb0d1a1d846b}*SharedItemsImports = 4
@@ -21,11 +88,34 @@ Global
 		{0EAC3174-69A4-43D6-929C-BB0D1A1D846B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0EAC3174-69A4-43D6-929C-BB0D1A1D846B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0EAC3174-69A4-43D6-929C-BB0D1A1D846B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C028880-96FF-43B1-A5C9-3B011E54DC75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C028880-96FF-43B1-A5C9-3B011E54DC75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C028880-96FF-43B1-A5C9-3B011E54DC75}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C028880-96FF-43B1-A5C9-3B011E54DC75}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{01210F34-2017-4A17-A9D5-31107A300251}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01210F34-2017-4A17-A9D5-31107A300251}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01210F34-2017-4A17-A9D5-31107A300251}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{01210F34-2017-4A17-A9D5-31107A300251}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{CB476F36-836E-4BE1-8403-99B09539F3F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB476F36-836E-4BE1-8403-99B09539F3F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB476F36-836E-4BE1-8403-99B09539F3F9}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB476F36-836E-4BE1-8403-99B09539F3F9}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{6B1A6072-7E6C-4C1B-B628-845D939754B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B1A6072-7E6C-4C1B-B628-845D939754B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B1A6072-7E6C-4C1B-B628-845D939754B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B1A6072-7E6C-4C1B-B628-845D939754B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{170C0103-3F94-4896-9062-6314167F596A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{170C0103-3F94-4896-9062-6314167F596A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{170C0103-3F94-4896-9062-6314167F596A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{170C0103-3F94-4896-9062-6314167F596A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {86504DFC-673D-497F-B3D7-D8B5D24B301B}
+	EndGlobalSection
+	GlobalSection(CRMSolutionProperties) = preSolution
+		SolutionIsBoundToCRM = True
 	EndGlobalSection
 EndGlobal

@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{fa6dc14d-e445-48f4-b296-d10dc5072ef9}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{7f1708d0-a365-42cf-b19a-61a6d7958083}" IsUserDefined="1" name="tab_general">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{73a074d0-65c4-4fb2-ae31-dc4618118cb1}" name="section_general">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{13f55431-b0da-433b-9c31-4ffb18387318}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="vus_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="vus_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1fd21f49-41ed-4012-899c-b1c917691b6d}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Start On" languagecode="1033" />
+                        </labels>
+                        <control id="vus_starton" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="vus_starton" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{01912ca9-ec56-496a-9840-b6ccfa7e8a2d}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="End On" languagecode="1033" />
+                        </labels>
+                        <control id="vus_endon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="vus_endon" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{00a1266c-582c-4805-a4e4-28bf7f196498}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Status Reason" languagecode="1033" />
+                        </labels>
+                        <control id="statuscode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statuscode" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="section_description" id="da6c749e-71a3-444c-bfde-405842945e1f" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Description" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{67c195de-9bff-4953-bfe9-97cf7cb89158}" locklevel="0" colspan="1" rowspan="7" showlabel="false" auto="true">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="vus_description" classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}" datafieldname="vus_description" disabled="false" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell locklevel="0" id="{b72b7486-a7ee-4410-8c00-b8335494efcb}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_classes" id="6f00832c-52dd-4f22-82fd-33eeedcf6eaa" IsUserDefined="0" locklevel="0" showlabel="true" contenttype="singleComponent">
+          <labels>
+            <label description="Classes" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="section_classes" id="1b7d598a-d3b8-4eb6-bb5d-ee010ce5e706" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell locklevel="0" id="{e880bffc-6423-4f6e-ba18-6f555346f211}" rowspan="4" colspan="1" auto="true" showlabel="false">
+                        <labels>
+                          <label description="Classes" languagecode="1033" />
+                        </labels>
+                        <control indicationOfSubgrid="true" id="subgrid_classes" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>20</RecordsPerPage>
+                            <AutoExpand>Auto</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <TargetEntityType>vus_class</TargetEntityType>
+                            <ViewId>{904A4949-92DD-4AE0-AA46-BC367AAD13FC}</ViewId>
+                            <ViewIds>{904A4949-92DD-4AE0-AA46-BC367AAD13FC}</ViewIds>
+                            <RelationshipName>vus_courseid_course_classes</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{fbfecda0-deca-42c7-9977-125eb85680e1}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{8d0e6ed7-5c5f-45c9-8340-1ddb4839d622}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{3b08b183-e6b2-4057-9b6d-32cc6b6df531}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{810e9435-395a-4d30-821b-1c9a403fd72b}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{182fe9c7-e171-43ff-8517-f4f70b1947eb}" colspan="1" rowspan="1">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{184d50fe-0cab-477f-8996-63311930ab95}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{fac25011-d40d-4f37-a120-7f60b9018351}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{ec81751a-a80b-45fd-88e5-044f9f1667e8}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{7ccf4cbe-594e-422c-8037-ad97c965ab4d}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Course" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{78faff08-6b66-470e-af4f-e869cafc21f5}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{f1cf733a-20e1-420a-a9f4-3edc9405a14f}" IsUserDefined="1" name="tab_general">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{b65a859c-d288-4442-83e7-3a4e35d0bae1}" name="section_general">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{980a77a6-66aa-4ac0-9924-5a2bda85d81e}">
+                        <labels>
+                          <label description="Full Name" languagecode="1033" />
+                        </labels>
+                        <control id="vus_fullname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="vus_fullname" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{848d398a-0c11-45ee-8f58-9fcd17f08d87}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="First Name" languagecode="1033" />
+                        </labels>
+                        <control id="vus_firstname" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="vus_firstname" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{443ed568-9b35-4734-8947-f72ab9715272}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Last Name" languagecode="1033" />
+                        </labels>
+                        <control id="vus_lastname" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="vus_lastname" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f37f18b8-ac94-4422-bc53-f992f5f59840}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Registered On" languagecode="1033" />
+                        </labels>
+                        <control id="vus_registeredon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="vus_registeredon" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8996254e-6520-48d6-b6a4-96280f05c018}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Status Reason" languagecode="1033" />
+                        </labels>
+                        <control id="statuscode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statuscode" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="section_contact" id="53f689bc-83ac-4f28-8c13-139c961b8c21" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Contact" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{9198de50-3207-4c73-aac3-f7e77db833b6}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Contact" languagecode="1033" />
+                        </labels>
+                        <control id="vus_contactid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="vus_contactid" disabled="false">
+                          <parameters>
+                            <DisableMru>true</DisableMru>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell locklevel="0" id="{cf07213e-909e-4a6b-8821-ba3622fd8eca}" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Contact Quick View" languagecode="1033" />
+                        </labels>
+                        <control id="quickview_contact" classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}" datafieldname="vus_contactid">
+                          <parameters>
+                            <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="contact"&gt;babe425d-3e12-ed11-b83e-0022485adde6&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{85291b04-367a-47d7-945b-567494b3c25a}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{22eb61d8-aa2f-47dc-9bf6-1535b931ee2a}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{54d93c0e-917c-4a91-a070-cc156d4127da}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{cae23aef-a222-4d59-8ea1-993a7c75746f}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{c66a3bdc-48c6-48b1-b6cd-c7555392b4e2}" colspan="1" rowspan="1">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{f729e5f7-2703-4b10-bf2b-9f1052a55ead}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{1e3d2ba1-996f-4d5e-a05f-50900a84942e}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{f17af185-d3bb-466b-828b-0e0b7f60566b}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{ccf7c886-a3ec-410d-bfb6-2b156fed8505}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Student" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

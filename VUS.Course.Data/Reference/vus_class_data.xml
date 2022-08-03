@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<entity name="vus_class" displayname="Class">
+  <records>
+    <record id="7e98098c-5112-ed11-b83e-0022485adde6">
+      <field name="vus_capacity" value="20" />
+      <field name="vus_classid" value="7e98098c-5112-ed11-b83e-0022485adde6" />
+      <field name="vus_classnumber" value="CLS-1000" />
+      <field name="vus_courseid" value="59534765-5012-ed11-b83e-0022485adde6" lookupentity="vus_course" lookupentityname="Course 1" />
+      <field name="vus_datescode" value="[-1,953640000,953640002,953640004,-1]" />
+      <field name="vus_endtime" value="953640003" />
+      <field name="vus_name" value="Class 2,4,6" />
+    </record>
+  </records>
+  <m2mrelationships />
+</entity>

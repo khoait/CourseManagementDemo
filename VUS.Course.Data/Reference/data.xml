@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<entities timestamp="2022-08-03T18:16:37.5566301Z" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <entity name="vus_course" displayname="Course" />
+  <entity name="vus_class" displayname="Class" />
+</entities>

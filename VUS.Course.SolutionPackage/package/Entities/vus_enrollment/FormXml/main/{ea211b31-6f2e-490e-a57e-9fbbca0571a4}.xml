@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{ea211b31-6f2e-490e-a57e-9fbbca0571a4}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{d633c6f5-735d-414a-bc7d-0423d5ee390e}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{ea585485-2ce3-4f82-9132-6bf4bf35056f}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{51250381-6536-40e3-a145-0249529347db}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="vus_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="vus_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d2c4c2a0-b86e-9936-8c7a-c382e2ec358d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Student" languagecode="1033" />
+                        </labels>
+                        <control id="vus_studentid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="vus_studentid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6eb9beb2-22ce-eabd-b2ab-d284b9446ec3}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Course" languagecode="1033" />
+                        </labels>
+                        <control id="vus_courseid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="vus_courseid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{722d0c58-0895-1c53-bb58-a1309d0d0873}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Class" languagecode="1033" />
+                        </labels>
+                        <control id="vus_classid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="vus_classid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8ae76610-3b85-1d47-b383-92410e308b23}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Enrolled On" languagecode="1033" />
+                        </labels>
+                        <control id="vus_enrolledon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="vus_enrolledon" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{76d0041b-b04c-a102-b749-462b477a9108}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Is Paid" languagecode="1033" />
+                        </labels>
+                        <control id="vus_ispaid" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="vus_ispaid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d45abd14-57a5-cd73-90d9-049ea7006516}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Paid On" languagecode="1033" />
+                        </labels>
+                        <control id="vus_paidon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="vus_paidon" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{ab6e8585-4c99-4511-96f7-0f2cccf57e31}" columns="111">
+        <rows>
+          <row>
+            <cell id="{40edf2a5-7061-4b11-b39f-86eca8a77acb}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{723e5a3c-fd8a-45e6-b9bc-05b046dfcafa}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{60ad6739-d034-3ac3-4430-e9c918c21565}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

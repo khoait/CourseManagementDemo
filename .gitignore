@@ -361,3 +361,34 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/VUS.Course.Plugins/spkl/unpack.bat
+/VUS.Course.Plugins/spkl/pack+import.bat
+/VUS.Course.Plugins/spkl/instrument-plugin-code.bat
+/VUS.Course.Plugins/spkl/earlybound.bat
+/VUS.Course.Plugins/spkl/download-webresources.bat
+/VUS.Course.Plugins/spkl/deploy-workflows.bat
+/VUS.Course.Plugins/spkl/deploy-webresources.bat
+/VUS.Course.Plugins/spkl/deploy-plugins.bat
+/VUS.Course.WebResources/spkl/unpack.bat
+/VUS.Course.WebResources/spkl/pack+import.bat
+/VUS.Course.WebResources/spkl/instrument-plugin-code.bat
+/VUS.Course.WebResources/spkl/earlybound.bat
+/VUS.Course.WebResources/spkl/download-webresources.bat
+/VUS.Course.WebResources/spkl/deploy-workflows.bat
+/VUS.Course.WebResources/spkl/deploy-webresources.bat
+/VUS.Course.WebResources/spkl/deploy-plugins.bat
+/VUS.Course.WebResources/App_Code
+/VUS.Course.SolutionPackage/App_Code
+/VUS.Course.SolutionPackage/spkl/unpack.bat
+/VUS.Course.SolutionPackage/spkl/pack+import.bat
+/VUS.Course.SolutionPackage/spkl/instrument-plugin-code.bat
+/VUS.Course.SolutionPackage/spkl/earlybound.bat
+/VUS.Course.SolutionPackage/spkl/download-webresources.bat
+/VUS.Course.SolutionPackage/spkl/deploy-workflows.bat
+/VUS.Course.SolutionPackage/spkl/deploy-webresources.bat
+/VUS.Course.SolutionPackage/spkl/deploy-plugins.bat
+/VUS.Course.Data/MyTokenCache
+*.txt
+*.bak
+/VUS.Course.Data/data.zip
+/VUS.Course.Tools/Tools

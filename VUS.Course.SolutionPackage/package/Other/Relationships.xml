@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="business_unit_vus_class" />
+  <EntityRelationship Name="business_unit_vus_course" />
+  <EntityRelationship Name="business_unit_vus_enrollment" />
+  <EntityRelationship Name="business_unit_vus_student" />
+  <EntityRelationship Name="lk_vus_class_createdby" />
+  <EntityRelationship Name="lk_vus_class_modifiedby" />
+  <EntityRelationship Name="lk_vus_course_createdby" />
+  <EntityRelationship Name="lk_vus_course_modifiedby" />
+  <EntityRelationship Name="lk_vus_enrollment_createdby" />
+  <EntityRelationship Name="lk_vus_enrollment_modifiedby" />
+  <EntityRelationship Name="lk_vus_student_createdby" />
+  <EntityRelationship Name="lk_vus_student_modifiedby" />
+  <EntityRelationship Name="owner_vus_class" />
+  <EntityRelationship Name="owner_vus_course" />
+  <EntityRelationship Name="owner_vus_enrollment" />
+  <EntityRelationship Name="owner_vus_student" />
+  <EntityRelationship Name="team_vus_class" />
+  <EntityRelationship Name="team_vus_course" />
+  <EntityRelationship Name="team_vus_enrollment" />
+  <EntityRelationship Name="team_vus_student" />
+  <EntityRelationship Name="user_vus_class" />
+  <EntityRelationship Name="user_vus_course" />
+  <EntityRelationship Name="user_vus_enrollment" />
+  <EntityRelationship Name="user_vus_student" />
+  <EntityRelationship Name="vus_classid_class_enrollments" />
+  <EntityRelationship Name="vus_contactid_contact_students" />
+  <EntityRelationship Name="vus_courseid_course_classes" />
+  <EntityRelationship Name="vus_courseid_course_enrollments" />
+  <EntityRelationship Name="vus_studentid_student_enrollments" />
+</EntityRelationships>
