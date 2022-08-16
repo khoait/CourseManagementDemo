@@ -1,0 +1,10 @@
+{
+  "entities": [
+    "vus_student"
+  ],
+  "actions": [],
+  "functions": [],
+  "output": {
+    "outputRoot": "./src/dataverse-gen"
+  }
+}

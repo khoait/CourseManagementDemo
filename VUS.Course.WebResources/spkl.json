@@ -4,7 +4,12 @@
       "profile": "default,debug",
       "root": "",
       "solution": "CourseManagement",
-      "files": [        
+      "files": [
+        {
+          "uniquename": "vus_/Course/js/StudentLibrary.js",
+          "displayname": "vus_/Course/js/StudentLibrary.js",
+          "file": "vus_\\Course\\js\\StudentLibrary.js"
+        }
       ]
     }
   ],
